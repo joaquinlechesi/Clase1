@@ -8,7 +8,7 @@ public class Numero2 {
 		//Apartado a.
 		float ingresos=0;
 		int vehiculos=0, antiguedad=0, inmuebles=0;
-		boolean embarcacion=false, aereonave=false, titularActivos=false;
+		boolean embarcacion=true, aereonave=false, titularActivos=false;
 		
 		if(embarcacion==true || aereonave==true || titularActivos==true) {
 			System.out.println("Pertenece al segmento iiii");
